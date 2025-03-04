@@ -1,0 +1,55 @@
+body {
+    background-color: #a9c9c9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #a9c9c9;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.navbar a:hover {
+    background-color: #fff;
+    color: #a9c9c9;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product {
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+.product .price {
+    color: #777;
+}
+.offer {
+    position: absolute;
+    background-color: #8dc2a6;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
