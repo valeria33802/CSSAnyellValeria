@@ -54,12 +54,11 @@ body {
     margin-right: 15px;
   }
 
-  /* Imagen del usuario */
   .back {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 20px, 30px;
+    
   }
   
   /* Texto de la reseña */
