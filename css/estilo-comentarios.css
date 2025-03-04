@@ -1,18 +1,19 @@
-/* Estilos generales */
+
 body {
+    text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #f2f9cc;
+    background-color: #efefff;
     margin: 0;
     padding: 0;
     color: #333;
   }
   
   /* Sección de Reseñas */
-  .reviews-section {
+  /* .reviews-section {
     background-color: #ffffff;
     padding: 50px 20px;
     text-align: center;
-  }
+  } */
   
   .section-title {
     font-size: 2rem;
