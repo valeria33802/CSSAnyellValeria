@@ -1,5 +1,5 @@
 body {
-    background-color:#efefff;
+    background-color: #efefff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #efefff;
+    background-color: #a9c9c9#efefff;
 }
 .navbar a {
     text-decoration: none;
@@ -17,6 +17,12 @@ body {
     color: #fff;
     margin: 0 5px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.navbar a img.nav-img {
+    width: 20px;
+    margin-left: 5px;
 }
 .navbar a:hover {
     background-color: #fff;
@@ -37,16 +43,21 @@ body {
 .product {
     text-align: center;
 }
-.product img {
-    width: 100%;
+.product img.product-img {
+    width: 150px;
     border-radius: 5px;
+}
+.product img.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto;
 }
 .product .price {
     color: #777;
 }
 .offer {
     position: absolute;
-    background-color: #efefff;
+    background-color:#efefff;
     color: #fff;
     padding: 2px 5px;
     border-radius: 5px;
