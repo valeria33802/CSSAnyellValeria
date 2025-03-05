@@ -13,8 +13,8 @@ body {
 .navbar a {
     text-decoration: none;
     padding: 10px 20px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #131212;
+    color: #008060;
     margin: 0 5px;
     border-radius: 5px;
 }
@@ -47,7 +47,7 @@ body {
 .offer {
     position: absolute;
     background-color: #efefff;
-    color: #fff;
+    color: #008060;
     padding: 2px 5px;
     border-radius: 5px;
     margin-top: -20px;

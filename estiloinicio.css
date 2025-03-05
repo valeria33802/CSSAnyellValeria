@@ -13,8 +13,8 @@ body {
 .navbar a {
     text-decoration: none;
     padding: 10px 20px;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #008060;
+    color:#008060;
     margin: 0 5px;
     border-radius: 5px;
     display: flex;
@@ -63,4 +63,20 @@ body {
     border-radius: 5px;
     margin-top: -20px;
     margin-left: 5px;
+}
+
+.icono-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.icono-centro i {
+    font-size: 150px; /* Tamaño del ícono */
+    color: #fff;
+}
+
+.icono-imagen {
+    width: 300px; 
 }

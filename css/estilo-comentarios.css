@@ -8,6 +8,20 @@ body {
     color: #333;
   }
   
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #efefff;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #131212;
+  color: #008060;
+  margin: 0 5px;
+  border-radius: 5px;
+}
   /* Sección de Reseñas */
   /* .reviews-section {
     background-color: #ffffff;
